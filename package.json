@@ -1,0 +1,26 @@
+{
+  "name": "veziit",
+  "private": true,
+  "version": "1.0.0",
+  "description": "QR-based Doctor Booking PWA",
+  "main": "index.js",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w web",
+    "build:web": "npm run build -w web",
+    "build:api": "npm run build -w api",
+    "deploy:functions": "npm run deploy -w api",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pwa",
+    "react",
+    "firebase",
+    "doctor",
+    "booking"
+  ],
+  "author": "Jules for Veziit",
+  "license": "ISC"
+}
